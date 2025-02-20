@@ -1,36 +1,17 @@
 public class MethodDemo {
-    public static void main(String[] args) {
-      public static void greet() {
-
- }
-      public static void greet() {
-   System.out.println("Hello from the greet method!"); 
-}
-      public static void main(String[] args) {
-   greet(); // Calling the greet method
-}
-      public class MethodDemo {
-    //... (main and greet methods)...
-
-    public static void printMessage(String message) {
-
+    // Method to greet the user
+    public static void greet() {
+        System.out.println("Hello from the greet method!");
     }
-}
-      public class MethodDemo {
-    //... (other methods)...
 
+    // Method to print a custom message
     public static void printMessage(String message) {
         System.out.println(message);
     }
-}
-      public class MethodDemo {
+
+    // Main method: Entry point of the program
     public static void main(String[] args) {
-        greet();
-        printMessage("This is my message!");
-    }
-
-    //... (other methods)...
-}
-
+        greet(); // Calling the greet method
+        printMessage("This is my message!"); // Calling the printMessage method with a custom message
     }
 }
